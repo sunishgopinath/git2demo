@@ -10,13 +10,5 @@ pipeline {
             }
         }
     }
-    stages {
-        stage('node build') {
-            steps {
-                echo 'Building Node.js project'
-                sh 'npm install'
-                
-            }
-        }
-    }
+
 }
