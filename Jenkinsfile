@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('node build') {
             steps {
-                echo 'install npm'
+                echo 'Building Node.js project'
                 sh 'npm install'
                 
             }
